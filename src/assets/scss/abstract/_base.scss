@@ -1,0 +1,36 @@
+.btn-A {
+    background-color: $purple;
+    border: solid $purple;
+    &:hover {
+        background-color: $purple;
+        border: solid $purple;
+    }
+    &:active {
+        background-color: $purple !important;
+        border: solid $purple;
+    }
+}
+.btn-B {
+    background-color: $orange;
+    border: solid $orange;
+    &:hover {
+        background-color: $orange;
+        border: solid $orange;
+    }
+    &:active {
+        background-color: $orange !important;
+        border: solid $orange;
+    }
+}
+
+.btn-C {
+    background-color: white;
+    color: $purple !important;
+    border: solid $purple;
+    &:hover {
+        background-color: white;
+    }
+    &:active {
+        background-color: white !important;
+    }
+}
